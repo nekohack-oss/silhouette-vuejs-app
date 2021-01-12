@@ -5,7 +5,7 @@ name := "play-silhouette-vuejs"
 
 version := "4.0.0"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.13.4"
 
 lazy val playSlickVersion = "4.0.2"
 
@@ -17,11 +17,11 @@ libraryDependencies ++= Seq(
   "com.mohiva" %% "play-silhouette-persistence" % "6.1.0",
   "com.mohiva" %% "play-silhouette-crypto-jca" % "6.1.0",
   "com.mohiva" %% "play-silhouette-totp" % "6.1.0",
-  "net.codingwell" %% "scala-guice" % "4.1.0",
+  "net.codingwell" %% "scala-guice" % "4.2.11",
   "org.postgresql" % "postgresql" % "9.4.1211",
   "com.github.tminglei" %% "slick-pg" % "0.18.0",
   "com.github.tminglei" %% "slick-pg_play-json" % "0.18.0",
-  "com.iheart" %% "ficus" % "1.4.3",
+  "com.iheart" %% "ficus" % "1.5.0",
   "com.typesafe.play" %% "play-slick"               % playSlickVersion,
   "com.typesafe.play" %% "play-slick-evolutions"    % playSlickVersion,
   caffeine,
